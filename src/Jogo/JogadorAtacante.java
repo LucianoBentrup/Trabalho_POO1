@@ -12,6 +12,7 @@ public class JogadorAtacante extends Jogador {
     public void JogadorAtacante(int pNom, int pIda,int pHab,int pVel,int pTec){} //Metodo Construtor
     
     //Metodos sets e gets
+    @Override
     public int getHabilidade(){
         
         this.habilidade =((habilidade*5) + (velocidade*2) + (tecnica*3) )/10;

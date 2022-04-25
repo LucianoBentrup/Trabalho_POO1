@@ -40,7 +40,10 @@ public class Time {
 
     public String getResultados() {
 
-        System.out.println("Historico do time " + this.nome + "\nVitorias: " + this.vitorias + "Derrotas: " + this.derrotas + "empates: " + this.empates);
+        System.out.println("Historico do time " + this.nome + 
+                            "\nVitorias: " + this.vitorias + 
+                            "Derrotas: " + this.derrotas + 
+                            "empates: " + this.empates);
 
         return "";
     }
