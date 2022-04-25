@@ -13,8 +13,12 @@ public class JogadorAtacante extends Jogador {
     
     //Metodos sets e gets
     public int getHabilidade(){
+        
+        this.habilidade =((habilidade*5) + (velocidade*2) + (tecnica*3) )/10;
+        
         return this.habilidade;
     }
-            
+
+
     
 }
