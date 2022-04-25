@@ -7,7 +7,7 @@ public class App {
         
         JogadorGoleiro teste = new JogadorGoleiro();
         
-        teste.habilidade = 5;
+        teste.habilidade = 1;
         teste.setAltura(190);
         teste.setReflexos(30);
                 
