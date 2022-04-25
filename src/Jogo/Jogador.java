@@ -15,6 +15,8 @@ public class Jogador {
     public void Jogador (String pNom, int pIda, int pHa){} //Metodo contrutor
     
     public int somaGol(){
+        gols = 0;
+        
         return 0;
     }
     

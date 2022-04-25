@@ -12,6 +12,7 @@ public class App {
         goleiroC.setAltura(1);
         goleiroC.setReflexos(38);
         
+        
         //Goleiro Visitante
         JogadorGoleiro goleiroV = new JogadorGoleiro();
         

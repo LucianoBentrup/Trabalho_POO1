@@ -2,12 +2,13 @@ package Jogo;
 
 public class Time {
 
+    
     //Atributos
     private String nome;
     private Jogador jogadores;
-    private int vitorias = 10;
-    private int derrotas = 5;
-    private int empates = 3;
+    private int vitorias=0;
+    private int derrotas=0;
+    private int empates=0;
 
     //metodos
     public void Time(String pNom) {
@@ -18,17 +19,17 @@ public class Time {
     }
 
     public int somaVitoria() {
-
+        vitorias++;
         return 0;
     }
 
     public int somaDerrota() {
-
+        derrotas++;
         return 0;
     }
 
     public int somaEmpate() {
-
+        empates++;
         return 0;
     }
 
@@ -40,6 +41,7 @@ public class Time {
 
     public String getResultados() {
 
+        
         System.out.println("Historico do time " + this.nome + 
                             "\nVitorias: " + this.vitorias + 
                             "Derrotas: " + this.derrotas + 
@@ -47,5 +49,13 @@ public class Time {
 
         return "";
     }
-
+    
+    
+    
+    public Jogador insJogador(Jogador pJog){
+           
+        
+        return pJog;
+    }
+    
 }

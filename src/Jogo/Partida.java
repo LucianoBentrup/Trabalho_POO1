@@ -1,5 +1,6 @@
 package Jogo;
 
+
 import java.util.Date;
 public class Partida {
 
@@ -11,22 +12,27 @@ public class Partida {
     private int placarVisitante;
 
     //metodos
-    //Incluir data (Não sei como)
     public Partida(Date pDat, Time pCas, Time pVis) {
 
     }
 
-    public void golCasa() {
-
+    public int golCasa() {
+        return placarCasa++;
+        
     }
 
-    public void golVisitante() {
-
+    public int golVisitante() {
+        return placarVisitante++;
     }
 
+    Time casa = new Time("Flamengo");
+    Time visitante = new Time();
+
+    
+    
     public String getPlacar() {
 
-        
+        System.out.println(Time.class.getName() + golCasa() + "x" +  golVisitante() + "nomeVisitante");
         
         return "";
 
