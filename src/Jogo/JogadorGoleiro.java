@@ -7,11 +7,9 @@ public class JogadorGoleiro extends Jogador {
     private float altura;
 
     //Metodos
-    public void JogadorGoleiro(String pNom, int pIda, int pHab, int pRef, float pAlt) {
-    } 
+    public void JogadorGoleiro(String pNom, int idade, int habilidade, int reflexos, float altura) 
+    {} 
 
-
-    
 
     @Override
     public int getHabilidade() {
@@ -21,30 +19,20 @@ public class JogadorGoleiro extends Jogador {
         return this.habilidade;
     }
 
-    /**
-     * @return the reflexos
-     */
+
     public int getReflexos() {
         return reflexos;
     }
 
-    /**
-     * @param reflexos the reflexos to set
-     */
+
     public void setReflexos(int reflexos) {
         this.reflexos = reflexos;
     }
 
-    /**
-     * @return the altura
-     */
     public float getAltura() {
         return altura;
     }
 
-    /**
-     * @param altura the altura to set
-     */
     public void setAltura(float altura) {
         this.altura = altura;
     }

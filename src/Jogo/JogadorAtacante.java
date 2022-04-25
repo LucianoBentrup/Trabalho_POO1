@@ -18,6 +18,23 @@ public class JogadorAtacante extends Jogador {
         
         return this.habilidade;
     }
+    
+    public int getVelocidade() {
+        return velocidade;
+    }
+
+    public void setVelocidade(int velocidade) {
+        this.velocidade = velocidade;
+    }
+
+    public int getTecnica() {
+        return tecnica;
+    }
+
+    public void setTecnica(int tecnica) {
+        this.tecnica = tecnica;
+    }
+
 
 
     

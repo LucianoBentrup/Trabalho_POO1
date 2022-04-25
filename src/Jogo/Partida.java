@@ -1,9 +1,10 @@
 package Jogo;
 
+import java.util.Date;
 public class Partida {
 
     //atributos
-    //private Date data;
+    private Date data;
     private Time timeCasa;
     private Time timeVisitante;
     private int placarCasa;
@@ -11,7 +12,7 @@ public class Partida {
 
     //metodos
     //Incluir data (Não sei como)
-    public Partida(Time pCas, Time pVis) {
+    public Partida(Date pDat, Time pCas, Time pVis) {
 
     }
 
